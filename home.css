@@ -1,0 +1,64 @@
+body{
+    background-color: #3e4336;
+}
+.fa-brands{
+    color: white;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.nav-container{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+.icon-group{
+    display :flex;
+    width: 8%;
+    justify-content: space-between;
+}
+.middle-group{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    
+}
+.lower-middle{
+    display:flex;
+    justify-content: space-between;
+    width: 43%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+
+}
+.Last-group{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.right-group{
+    display:flex;
+    justify-content: space-between;
+    width:14%;
+    gap: 15px;
+    color: white;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+.btn-group{
+    background-color: white;
+    color: black;
+    padding: 18px;min-width: 125px;
+}
